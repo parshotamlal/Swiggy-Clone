@@ -1,7 +1,12 @@
+import Footer from "./Footer"
+import Header from "./Header"
+
 function Offers() {
   return (
     <div>
-   offers
+        {/* <Header/> */}
+        <div className="font-bold">Offers</div>
+        {/* <Footer/> */}
     </div>
   )
 }

@@ -1,15 +1,19 @@
-import Header from "./components/Header"
-import Footer from "./components/Footer"
-import Body from "./components/Body"
-import { Outlet } from "react-router-dom"
+import Body from "./components/Body";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 import "./App.css"
-function App() {
-  return (
-<div>
-  <Header />
-  <Outlet />
-  <Footer />
-</div>
+import { Outlet } from "react-router-dom";
+function App(){
+  return(
+    <div>
+      <Header />
+      {/* <Body /> */}
+      <Outlet />
+      <Footer />
+    </div>
   )
 }
-export default App
+
+export default App;
+
+// Process.env.API_KEY

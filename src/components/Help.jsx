@@ -1,8 +1,12 @@
+
 function Help() {
   return (
     <div>
-    help
+        {/* <Header/> */}
+        <div className="font-bold">Help</div>
+        {/* <Footer/> */}
     </div>
   )
 }
-export default Help;
+
+export default Help

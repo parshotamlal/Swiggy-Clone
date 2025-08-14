@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import RestaurantCard from './RestaurantCard'
 import ApiCalling from './ApiCalling'
 import Search from './Search';
+
 function Body() {
   let restArr = ApiCalling();
   let [allRestArray,setAllRestArray] = useState(restArr);

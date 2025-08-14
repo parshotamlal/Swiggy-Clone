@@ -17,4 +17,4 @@ function ApiCalling() {
     return allRestaurantArr
 }
 
-export default ApiCalling
+export default ApiCalling;
